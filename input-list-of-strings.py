@@ -8,3 +8,11 @@ def view(description, strings):
         print(f"{i+1}) {strings[i]}")
         
 strings = []
+n = 2
+
+print(f"n = {n}")
+
+for _ in range(n):
+    add('Lägg till en sträng: ', strings)
+    
+view(f'\nDu har matat in följande {n} strängar\n', strings)
